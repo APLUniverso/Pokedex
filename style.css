@@ -32,16 +32,79 @@ body{
 .serchInput{
     position: absolute;
 
-    width: 320px;
+    width: 287px;
+    height: 50px;
     
-    bottom: 0;
-    left: 0;
+    bottom: 150px;
+    left: 50px;
+
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+
+    border-radius: 10px;
+    border: 2px solid #212221;
+    box-shadow: -3px 5px 0 0 #8e8e8f;
 }
 
-.btns{
+
+.btn{
+    position: absolute;
+    background-color: #424242;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: -3px 5px 0 0 #212221;
+
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+
+    bottom: 50px;
+}
+
+.btn:active{
+    transform: translate(-3px,5px);
+    box-shadow: -1px 1px 0 0px #212221;
+}
+
+.next{
+    left: 50px;
+}
+
+.prev{
+    left: 206px;
+}
+
+#imagen{
     position: absolute;
 
     display: flex;
     justify-content: center;
-    gap: 10px   ;
+    align-items: center;
+
+    background-color: aqua;
+
+    width: 250px;
+    height: 170px;
+
+    top: 170px;
+    left: 70px;
+}
+
+#nN{
+    position: absolute;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    width: 250px;
+    height: 55px;
+    padding-right: 10px;
+
+    top: 340px;
+    left: 70px;
+    background-color: aquamarine;
 }
