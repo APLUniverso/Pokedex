@@ -1,0 +1,47 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap&#39;);*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 425px;
+    height: 637px;
+
+    position: relative;
+}
+
+.content img{
+    width: 100%;
+    height: 100%;
+}
+
+.serchInput{
+    position: absolute;
+
+    width: 320px;
+    
+    bottom: 0;
+    left: 0;
+}
+
+.btns{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px   ;
+}
