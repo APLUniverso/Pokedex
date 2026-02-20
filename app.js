@@ -70,8 +70,8 @@ function mostrarEnPantalla(pokeData){
     nN.innerHTML = ""
     nN.innerHTML = `
     <div class="pokeInfo">
-        <h1 class="grey">${pokeData.id} - </h1>
-        <h1>${pokeData.species.name}</p>
+        <h1 class="grey">${pokeData.id} -</h1>
+        <h1>    ${pokeData.species.name}</p>
     </div>
     `;
     imagen.innerHTML = ""
@@ -84,6 +84,10 @@ function mostrarEnPantalla(pokeData){
     ||"";
 
     if (sprite) {
+        imagen.classList.remove("agrandar")
+        if (sprite === pokeData.sprites.front_default){
+            imagen.classList.add("agrandar")
+        }
         pokeimagen.src = sprite;
         imagen.append(pokeimagen);
     } else {//por si no encuentra imagen
