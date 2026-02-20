@@ -84,13 +84,11 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: aqua;
+    width: 120px;
+    height: 120px;
 
-    width: 250px;
-    height: 170px;
-
-    top: 170px;
-    left: 70px;
+    top: 200px;
+    left: 140px;
 }
 
 #nN{
@@ -106,5 +104,12 @@ body{
 
     top: 340px;
     left: 70px;
-    background-color: aquamarine;
+}
+
+.grey{
+    color: rgb(91, 90, 90);
+}
+
+.pokeInfo{
+    display: flex;
 }
