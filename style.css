@@ -8,6 +8,9 @@
 }
 
 body{
+    background: #7BB7F4;
+    background: linear-gradient(175deg,rgba(123, 183, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+
     width: 100vw;
     height: 100vh;
 
